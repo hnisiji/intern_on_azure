@@ -1,0 +1,14 @@
+{
+  "name": "intern_on_azure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "intern"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "intern": "^4.3.3"
+  }
+}

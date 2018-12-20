@@ -1,0 +1,20 @@
+{
+    "functionalSuites": "test/**/*.js",
+    "environments": ["chrome",  "firefox"],
+    "reporters+": ["simple", {
+        "name": "junit",
+        "options": {
+            "filename": "junit-results.xml"
+        }
+    }],
+    "configs": {
+        "mac": {
+            "description": "Run tests on a Mac",
+            "environments": ["chrome", "firefox", "safari"]
+        },
+        "win": {
+            "description": "Run tests on a Win",
+            "environments": ["chrome", "firefox", "ie"]
+        }
+    }
+}
