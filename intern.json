@@ -10,6 +10,20 @@
     "tunnelOptions": {
       "drivers": ["chrome", "firefox"]
     },
+    "environments": [
+        {
+            "browserName": "chrome",
+            "goog:chromeOptions": {
+                "args": ["headless", "disable-gpu", "window-size=1024,768"]
+            }
+        },
+        {
+            "browserName": "firefox",
+            "moz:firefoxOptions": {
+                "args": ["-headless", "--window-size=1024,768"]
+            }
+        }
+    ],
     "configs": {
         "mac": {
             "description": "Run tests on a Mac",
