@@ -8,7 +8,8 @@
         }
     }],
     "tunnelOptions": {
-      "drivers": ["chrome", "firefox"]
+      "drivers": ["chrome", "firefox"],
+      "verbose": true
     },
     "environments": [
         {
