@@ -6,7 +6,7 @@
 trigger:
 - master
 jobs:
-- job: Windows (IE)
+- job: Windows_IE
   pool:
     vmImage: 'vs2017-win2016'
   steps:
