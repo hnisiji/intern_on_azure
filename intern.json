@@ -32,9 +32,20 @@
         },
         "win": {
             "description": "Run tests on a Win",
-            "environments": ["chrome", "ie"],
+            "environments": [
+                {
+                    "browserName": "chrome",
+                    "goog:chromeOptions": {
+                        "args": ["headless", "disable-gpu", "window-size=1024,768"]
+                    }
+                },
+                {
+                    "browserName": "ie"
+                }
+            },
             "tunnelOptions": {
-                "drivers": ["chrome", "firefox", "ie"]
+                "drivers": ["chrome", "firefox", "ie"],
+                "verbose": true
             }
         }
     }
