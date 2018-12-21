@@ -30,31 +30,15 @@
             "description": "Run tests on a Mac",
             "environments": ["safari"]
         },
-        "win": {
+        "ie": {
             "description": "Run tests on a Win",
             "environments": [
-                {
-                    "browserName": "firefox",
-                    "moz:firefoxOptions": {
-                        "args": ["-headless", "--window-size=1024,768"]
-                    }
-                },
-                {
-                    "browserName": "chrome",
-                    "goog:chromeOptions": {
-                        "args": ["headless", "disable-gpu", "window-size=1024,768"]
-                    }
-                },
                 {
                     "browserName": "internet explorer"
                 }
             ],
             "tunnelOptions": {
-                "drivers": [
-                    { "name": "chrome", "version": "2.40" },
-                    { "name": "firefox", "version": "0.19.1" },
-                    "internet explorer"
-                ],
+                "drivers": [ "internet explorer" ],
                 "verbose": true
             }
         }

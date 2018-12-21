@@ -6,7 +6,7 @@
 trigger:
 - master
 jobs:
-- job: Windows
+- job: Windows (IE)
   pool:
     vmImage: 'vs2017-win2016'
   steps:
@@ -18,8 +18,8 @@ jobs:
       npm install
     displayName: 'npm install'
   - script: |
-      npm run test:win
-    displayName: 'npm run test:win'
+      npm run test:ie
+    displayName: 'npm run test:ie'
   - task: PublishTestResults@2
     inputs:
       testRunner: JUnit

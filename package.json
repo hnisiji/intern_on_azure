@@ -6,7 +6,7 @@
   "scripts": {
     "test": "intern",
     "test:mac": "intern config=@mac",
-    "test:win": "intern config=@win"
+    "test:ie": "intern config=@ie"
   },
   "author": "",
   "license": "ISC",
