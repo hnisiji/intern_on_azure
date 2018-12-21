@@ -20,6 +20,7 @@ jobs:
   - script: |
       npm run test:ie
     displayName: 'npm run test:ie'
+    continueOnError: true
   - task: PublishTestResults@2
     inputs:
       testRunner: JUnit
@@ -58,6 +59,7 @@ jobs:
   - script: |
       npm test
     displayName: 'npm test'
+    continueOnError: true
   - task: PublishTestResults@2
     inputs:
       testRunner: JUnit
