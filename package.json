@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "intern",
-    "test:mac": "intern config=@mac"
+    "test:mac": "intern config=@mac",
+    "test:win": "intern config=@win"
   },
   "author": "",
   "license": "ISC",

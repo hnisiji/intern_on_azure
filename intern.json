@@ -32,7 +32,7 @@
         },
         "win": {
             "description": "Run tests on a Win",
-            "environments": ["chrome", "firefox", "ie"]
+            "environments": ["chrome", "ie"]
         }
     }
 }
