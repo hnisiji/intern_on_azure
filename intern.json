@@ -7,6 +7,9 @@
             "filename": "junit-results.xml"
         }
     }],
+    "tunnelOptions": {
+      "drivers": ["chrome", "firefox"]
+    },
     "configs": {
         "mac": {
             "description": "Run tests on a Mac",
