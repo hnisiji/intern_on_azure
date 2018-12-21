@@ -40,11 +40,11 @@
                     }
                 },
                 {
-                    "browserName": "ie"
+                    "browserName": "internet explorer"
                 }
             },
             "tunnelOptions": {
-                "drivers": ["chrome", "firefox", "ie"],
+                "drivers": ["chrome", "firefox", "internet explorer"],
                 "verbose": true
             }
         }
