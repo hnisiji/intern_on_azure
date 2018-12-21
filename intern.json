@@ -42,7 +42,7 @@
                 {
                     "browserName": "internet explorer"
                 }
-            },
+            ],
             "tunnelOptions": {
                 "drivers": ["chrome", "firefox", "internet explorer"],
                 "verbose": true
