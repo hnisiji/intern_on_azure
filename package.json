@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "intern"
+    "test": "intern",
+    "test:mac": "intern config=@mac"
   },
   "author": "",
   "license": "ISC",
