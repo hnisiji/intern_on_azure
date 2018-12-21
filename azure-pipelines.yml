@@ -25,9 +25,9 @@ jobs:
       testRunner: JUnit
       testResultsFiles: junit-results.xml
 
-- job: Mac
+- job: linux
   pool:
-    vmImage: 'macOS-10.13'
+    vmImage: 'ubuntu-16.04'
   steps:
   - task: NodeTool@0
     inputs:
