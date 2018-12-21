@@ -13,7 +13,7 @@ describe('app', () => {
 
         await remote.setFindTimeout(5 * 1000);
         await remote.findById('srchtxt').type('うおぽぉ');
-        await remote.findById('srchbtn').submit();
+        await remote.findById('srchbtn').click();
         await sleep(1000);
         
         expect(await remote.findDisplayedById('yschsp').getAttribute('value')).to.equal('うおぽぉ')
