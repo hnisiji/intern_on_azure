@@ -40,6 +40,12 @@
                     }
                 },
                 {
+                    "browserName": "chrome",
+                    "goog:chromeOptions": {
+                        "args": ["headless", "disable-gpu", "window-size=1024,768"]
+                    }
+                },
+                {
                     "browserName": "internet explorer"
                 }
             ],
@@ -47,7 +53,7 @@
                 "drivers": [
                     { "name": "chrome", "version": "2.40" },
                     { "name": "firefox", "version": "0.19.1" },
-                    { "name": "internet explorer", "version": "3.8.0" }
+                    "internet explorer"
                 ],
                 "verbose": true
             }
