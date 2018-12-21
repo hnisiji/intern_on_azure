@@ -32,7 +32,10 @@
         },
         "win": {
             "description": "Run tests on a Win",
-            "environments": ["chrome", "ie"]
+            "environments": ["chrome", "ie"],
+            "tunnelOptions": {
+                "drivers": ["chrome", "firefox", "ie"]
+            }
         }
     }
 }
